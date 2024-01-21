@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    background-color: #1F2937;
+    height: 70vh;
+}
+.navbar-container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+.banner {
+    margin-top: 40px;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.info {
+    margin: auto;
+    width: 50%;
+}
+
+.info h1{
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    margin: auto;
+    width: 100%;
+}
+
+.q_text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    margin: auto;
+    width: 50%;
+    
+}
+
+.q_writer{
+    text-align: right;
+    color: black;
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
